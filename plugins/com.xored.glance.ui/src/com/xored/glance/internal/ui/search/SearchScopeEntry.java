@@ -1,5 +1,5 @@
 /******************************************************************************* 
- * Copyright (c) 2008 xored software, Inc.  
+ * Copyright (c) 2017 Exyte  
  * 
  * All rights reserved. This program and the accompanying materials 
  * are made available under the terms of the Eclipse Public License v1.0 
@@ -7,7 +7,7 @@
  * http://www.eclipse.org/legal/epl-v10.html  
  * 
  * Contributors: 
- *     xored software, Inc. - initial API and Implementation (Yuri Strot) 
+ *     Yuri Strot - initial API and Implementation 
  *******************************************************************************/
 package com.xored.glance.internal.ui.search;
 

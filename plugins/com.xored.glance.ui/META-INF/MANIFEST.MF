@@ -4,7 +4,7 @@ Bundle-Name: Glance Core
 Bundle-SymbolicName: com.xored.glance.ui;singleton:=true
 Bundle-Version: 1.2.1.qualifier
 Bundle-Activator: com.xored.glance.internal.ui.GlancePlugin
-Bundle-Vendor: xored software, Inc.
+Bundle-Vendor: Exyte
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.ui.editors,
