@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Glance GEF
+Bundle-SymbolicName: org.eclipse.ui.glance.gef;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: org.eclipse.ui.glance.gef.Activator
+Bundle-Vendor: Exyte
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.draw2d,
+ org.eclipse.gef,
+ org.eclipse.ui.glance
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.ui.glance.gef.controls,
+ org.eclipse.ui.glance.gef.descriptors,
+ org.eclipse.ui.glance.gef.sources

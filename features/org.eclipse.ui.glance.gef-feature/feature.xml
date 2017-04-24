@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ui.glance.gef"
+      label="Eclipse Glance GEF"
+      version="0.0.1.qualifier"
+      provider-name="Exyte">
+
+   <description url="http://ystrot.github.com/glance/">
+      Incremental text search and highlighting in GEF
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.draw2d"/>
+      <import plugin="org.eclipse.gef"/>
+      <import feature="org.eclipse.ui.glance" version="0.0.1.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ui.glance.gef"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

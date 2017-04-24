@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.ui.glance_0.0.1.qualifier.jar" id="org.eclipse.ui.glance" version="0.0.1.qualifier">
+      <category name="org.eclipse.ui.glance"/>
+   </feature>
+   <category-def name="org.eclipse.ui.glance" label="Glance"/>
+</site>

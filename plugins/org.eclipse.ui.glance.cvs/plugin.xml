@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.glance.sources">
+		<source
+			class="org.eclipse.ui.glance.cvs.CVSViewDescriptor"
+			priority="3">
+		</source>
+	</extension>
+</plugin>

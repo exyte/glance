@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Glance
+Bundle-SymbolicName: org.eclipse.ui.glance;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: org.eclipse.ui.glance.internal.GlancePlugin
+Bundle-Vendor: Exyte
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.editors,
+ org.eclipse.jface.text,
+ org.eclipse.ui.ide
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.ui.glance.panels,
+ org.eclipse.ui.glance.sources,
+ org.eclipse.ui.glance.utils,
+ org.eclipse.ui.glance.controls.decor,
+ org.eclipse.ui.glance.controls.descriptors,
+ org.eclipse.ui.glance.controls.items,
+ org.eclipse.ui.glance.controls.table,
+ org.eclipse.ui.glance.controls.text.styled,
+ org.eclipse.ui.glance.controls.tree,
+ org.eclipse.ui.glance.viewers.descriptors
+ 

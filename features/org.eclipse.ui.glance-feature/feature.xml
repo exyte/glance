@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ui.glance"
+      label="Eclipse Glance"
+      version="0.0.1.qualifier"
+      provider-name="Exyte">
+
+   <description url="http://ystrot.github.com/glance/">
+      Incremental text search and highlighting in rich texts, tables and trees.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ui.glance"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
